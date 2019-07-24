@@ -217,7 +217,6 @@ namespace spades {
 
 					if (view->WantsToBeClosed()) {
 						view->Closing();
-						running = false;
 						SPLog("Close requested by Client");
 						break;
 					}
